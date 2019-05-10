@@ -1,0 +1,24 @@
+2019-5-9 16:58:46[ERROR](HeaderExchangeHandler.java:181)  [DUBBO] Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0x8117ded0, /169.254.183.124:52678 => /169.254.183.124:20881]], url: dubbo://169.254.183.124:20881/cn.li.seller.service.BrandService?anyhost=true&application=manager-web&check=false&codec=dubbo&dubbo=2.8.4&generic=false&heartbeat=60000&interface=cn.li.seller.service.BrandService&methods=add,update,querypager,delete,findAll,queryid&pid=7116&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1557391648813, dubbo version: 2.8.4, current host: 169.254.183.124
+java.lang.Exception: Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0x8117ded0, /169.254.183.124:52678 => /169.254.183.124:20881]], url: dubbo://169.254.183.124:20881/cn.li.seller.service.BrandService?anyhost=true&application=manager-web&check=false&codec=dubbo&dubbo=2.8.4&generic=false&heartbeat=60000&interface=cn.li.seller.service.BrandService&methods=add,update,querypager,delete,findAll,queryid&pid=7116&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1557391648813
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:180)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-5-9 16:58:46[ERROR](HeaderExchangeHandler.java:181)  [DUBBO] Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0x8117ded0, /169.254.183.124:52678 => /169.254.183.124:20881]], url: dubbo://169.254.183.124:20881/cn.li.seller.service.BrandService?anyhost=true&application=manager-web&check=false&codec=dubbo&dubbo=2.8.4&generic=false&heartbeat=60000&interface=cn.li.seller.service.BrandService&methods=add,update,querypager,delete,findAll,queryid&pid=7116&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1557391648813, dubbo version: 2.8.4, current host: 169.254.183.124
+java.lang.Exception: Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0x8117ded0, /169.254.183.124:52678 => /169.254.183.124:20881]], url: dubbo://169.254.183.124:20881/cn.li.seller.service.BrandService?anyhost=true&application=manager-web&check=false&codec=dubbo&dubbo=2.8.4&generic=false&heartbeat=60000&interface=cn.li.seller.service.BrandService&methods=add,update,querypager,delete,findAll,queryid&pid=7116&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1557391648813
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:180)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-5-9 16:58:46[ERROR](HeaderExchangeHandler.java:181)  [DUBBO] Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0x8117ded0, /169.254.183.124:52678 => /169.254.183.124:20881]], url: dubbo://169.254.183.124:20881/cn.li.seller.service.BrandService?anyhost=true&application=manager-web&check=false&codec=dubbo&dubbo=2.8.4&generic=false&heartbeat=60000&interface=cn.li.seller.service.BrandService&methods=add,update,querypager,delete,findAll,queryid&pid=7116&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1557391648813, dubbo version: 2.8.4, current host: 169.254.183.124
+java.lang.Exception: Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0x8117ded0, /169.254.183.124:52678 => /169.254.183.124:20881]], url: dubbo://169.254.183.124:20881/cn.li.seller.service.BrandService?anyhost=true&application=manager-web&check=false&codec=dubbo&dubbo=2.8.4&generic=false&heartbeat=60000&interface=cn.li.seller.service.BrandService&methods=add,update,querypager,delete,findAll,queryid&pid=7116&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1557391648813
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:180)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
